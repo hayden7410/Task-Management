@@ -1,0 +1,39 @@
+**TASKS LIST MANAGER PROJECT**
+USER GUIDE:
+
+1. Add a task:
+- Choose 1 of the 3 category: Home, Social, School.
+- Enter the description of the task. Cannot leave blank. The program will show notifications. 
+- Enter the due date for the task in the form: yyyy-mm-dd. Note: Cannot be in the past and must follow the date format. The program will show notifications. 
+- Choose 1 of the 3 priority of the task: High, Medium, Low.
+- Enter the number of days before due date that users want to be reminded. If left blank, it would be automatically set to 3 days. 
+
+2. Edit a task: 
+- Click on a task.
+- Click the edit button.
+- Modify the desired field. The conditions for the field input remains the same as before (cannot leave blank, past date,..)
+- Click "OK" to save the modified task.
+
+3. Remove a task:
+- Click on a task.
+- Click "remove" button.
+- Confirm 1 more time to delete that task.
+
+4. View Completed Task:
+- First, you need to check the checkbox in the last column. 
+- Then, the program will automatically understand that task is marked as completed and display the marked completed tasks. 
+
+5. Filtering the tasks:
+- Choose 1 of the 4 options beside the "Filter by Category" label.
+- The table will display tasks according to the Category chosen by user.
+
+6. Export Tasks: 
+- Click the Export Tasks.
+- The program will print the file path to the console window.
+- Enter the file path in the File Explorer to open the file. 
+
+7. Import Tasks:
+- We have already include an "Import File" in this zip file. Users can copy the file path of this file into the input dialog and it will automatically import the data. 
+- In case users want to import a different file, it has to be a .txt file and the data in the form like this example: 
+Home	Finalize Project 2610	2025-12-12	High	5
+- Each string is separated by a "\t" character and this is the character that our program used to separate the line to retrieve the variable. 
